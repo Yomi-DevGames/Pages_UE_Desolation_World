@@ -1,0 +1,6 @@
+header{
+    /*作品が完成したら、background-imageに画像入れて、backgroud-color削除する*/
+    background-image: none;
+    background-color: #add8e6;
+    text-align: center;
+}
