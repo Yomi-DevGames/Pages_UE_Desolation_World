@@ -1,6 +1,15 @@
 header{
     /*作品が完成したら、background-imageに画像入れて、backgroud-color削除する*/
+    width: 100%;
+    box-sizing: border-box;
+    position: 0px;
+    padding: 30px;
     background-image: none;
     background-color: #add8e6;
     text-align: center;
+}
+
+nav{
+    background-color: #add8e6;
+    text-align: left;
 }
