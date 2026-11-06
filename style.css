@@ -10,6 +10,8 @@ header{
 }
 
 nav{
+    width: fit-content;
     background-color: #add8e6;
     text-align: left;
+    padding-right: 50px;
 }
