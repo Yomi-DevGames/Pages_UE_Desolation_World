@@ -1,3 +1,5 @@
+/*header*/
+
 header{
     /*作品が完成したら、background-imageに画像入れて、backgroud-color削除する*/
     box-sizing: border-box;
@@ -10,10 +12,27 @@ header{
     font-size: 23px;
 }
 
+/*container*/
+
 .container {
-  display: flex;
-  gap: 0px; /* ナビゲーションと右側要素の間の隙間 */
-  align-items: flex-start; /* 上揃えにする */
+    display: flex;
+    gap: 0px; /* ナビゲーションと右側要素の間の隙間 */
+    align-items: flex-start; /* 上揃えにする */
+}
+
+/*main contents*/
+
+.contents{
+    flex-grow: 1;
+    padding-right: 10px;
+}
+
+.contents h1{
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 10px;
+    background-color: #0f0;
+    border: #000 double;
 }
 
 /*navigation*/
