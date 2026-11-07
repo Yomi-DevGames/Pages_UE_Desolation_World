@@ -47,6 +47,7 @@ header{
     box-sizing: border-box;
     width: 100%;
     background-color: #add8e6;
+    color: #777;
     padding: 30px;
     text-align: center;
 }
