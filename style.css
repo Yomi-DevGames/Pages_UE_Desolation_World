@@ -9,6 +9,12 @@ header{
     text-align: center;
 }
 
+.container {
+  display: flex;
+  gap: 0px; /* ナビゲーションと右側要素の間の隙間 */
+  align-items: flex-start; /* 上揃えにする */
+}
+
 /*navigation*/
 
 .navigation{
