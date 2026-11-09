@@ -1,0 +1,72 @@
+/*header*/
+
+header{
+    /*作品が完成したら、background-imageに画像入れて、backgroud-color削除する*/
+    box-sizing: border-box;
+    position: 0px;
+    margin: 10px;
+    padding: 30px;
+    background-image: none;
+    background-color: #0f0;
+    text-align: center;
+    font-size: 23px;
+}
+
+/*container*/
+
+.container {
+    display: flex;
+    gap: 0px; /* ナビゲーションと右側要素の間の隙間 */
+    align-items: flex-start; /* 上揃えにする */
+}
+
+/*main contents*/
+
+.contents{
+    flex-grow: 1;
+    padding-right: 10px;
+}
+
+.contents h1{
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 10px;
+    background-color: #0f0;
+    border: #000 double;
+}
+
+/*navigation*/
+
+.navigation{
+    margin: 10px;
+}
+
+.navigation h2{
+    min-width: 300px;
+    width: 100%;
+    border: #000 double;
+    background-color: #add8e6;
+    text-align: left;
+}
+
+.navigation ul{
+    width: fit-content;
+    text-align: left;
+    padding-left: 0px;
+    padding-right: 50px;
+}
+
+.navigation p{
+    line-height: 1.5;
+}
+
+/*footer*/
+
+.footer{
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #add8e6;
+    color: #777;
+    padding: 30px;
+    text-align: center;
+}
