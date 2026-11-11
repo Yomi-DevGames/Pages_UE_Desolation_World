@@ -1,0 +1,24 @@
+.title {
+    text-align: center;
+}
+
+.link {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin: 0;
+}
+
+.link li a {
+    display: flex;
+    flex-direction: column; /* 縦方向（上：英語、下：日本語）に並べる */
+    align-items: center;    /* 左右中央に揃える */
+      text-decoration: none;
+     margin: 50px;
+}
+
+.link .en {
+    font-size: 50px;
+}
