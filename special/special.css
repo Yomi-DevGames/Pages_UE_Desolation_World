@@ -1,0 +1,30 @@
+.spe_header {
+    display: flex;
+    margin: 20px;
+    margin-right: 40px;
+    justify-content: space-between;
+}
+
+.spe_header .link {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 50px;
+}
+
+.spe_header .link li a {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.spe_header .link .en {
+    font-size: 30px;
+}
+
+.spe_header .link .jp{
+    font-size: 15px;
+}
